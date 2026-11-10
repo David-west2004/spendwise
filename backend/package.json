@@ -1,0 +1,30 @@
+{
+  "name": "spendwise-backend",
+  "version": "1.0.0",
+  "description": "Smart ledger and financial calculator for student expense tracking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "migrate": "node scripts/migrate.js",
+    "build:pdf": "node scripts/buildPdf.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.12.0"
+  },
+  "keywords": [
+    "expense-tracker",
+    "finance",
+    "student",
+    "nodejs",
+    "express",
+    "mysql"
+  ],
+  "author": "",
+  "license": "ISC"
+}
